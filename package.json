@@ -1,0 +1,45 @@
+{
+  "name": "babel-preset-react-native-web3",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "format": "prettier --ignore-path .gitignore --single-quote --use-tabs --trailing-comma es5 --write '**/*.js'"
+  },
+  "author": "Alejandro Garcia <agrcrobles@gmail.com>",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "babel-preset",
+    "web3"
+  ],
+  "dependencies": {
+    "babel-plugin-rewrite-require": "1.14.5",
+    "browserify-zlib": "0.2.0",
+    "constants-browserify": "1.0.0",
+    "domain-browser": "1.1.7",
+    "eslint": "4.10.0",
+    "https-browserify": "1.0.0",
+    "node-libs-browser": "2.0.0",
+    "os-browserify": "0.3.0",
+    "path-browserify": "0.0.0",
+    "prettier": "1.7.4",
+    "querystring-es3": "0.2.1",
+    "react-native-crypto": "^2.1.2",
+    "react-native-pbkdf2-shim": "git+https://git@github.com/concensus/react-native-pbkdf2-shim.git",
+    "react-native-randombytes": "3.0.0",
+    "readable-stream": "2.3.3",
+    "stream-browserify": "2.0.1",
+    "stream-http": "2.7.2",
+    "timers-browserify": "2.0.4",
+    "tty-browserify": "0.0.0",
+    "util": "0.10.3",
+    "vm-browserify": "0.0.4"
+  },
+  "license": "MIT"
+}
